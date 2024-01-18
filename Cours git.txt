@@ -59,3 +59,5 @@ git merge branche_source
 10. Historique des commits : 
 Consulter l'historique des commits avec la commande log.
 git log
+Consulter les modifications par rapport à ce commit
+git show
