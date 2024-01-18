@@ -6,7 +6,7 @@
 1. [Initialisation d'un nouveau dépôt](https://github.com/Detzio/cours_git?tab=readme-ov-file#initialisation-dun-nouveau-d%C3%A9p%C3%B4t-) :	
 2. [Clonage d'un dépôt existant](https://github.com/Detzio/cours_git?tab=readme-ov-file#clonage-dun-d%C3%A9p%C3%B4t-existant-) :	
 3. [Consultation de l'état](https://github.com/Detzio/cours_git?tab=readme-ov-file#consultation-de-l%C3%A9tat-) :
-4. [Ajouter et suivi de fichiers]() :
+4. [Ajouter et suivi de fichiers](https://github.com/Detzio/cours_git?tab=readme-ov-file#ajouter-et-suivi-de-fichiers) :
 5. [Mise à jour du dépôt local](https://github.com/Detzio/cours_git?tab=readme-ov-file#mise-%C3%A0-jour-du-d%C3%A9p%C3%B4t-local-) :	
 6. [Envoi des modifications au dépôt distant](https://github.com/Detzio/cours_git?tab=readme-ov-file#envoi-des-modifications-au-d%C3%A9p%C3%B4t-distant) :
 7. [Création de branches](https://github.com/Detzio/cours_git?tab=readme-ov-file#cr%C3%A9ation-dune-branche) :	
