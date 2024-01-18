@@ -35,6 +35,20 @@ Vérifiez l'état actuel de votre dépôt avec la commande status.
 git status
 ```
 
+## Faire un commit
+
+Ajouter des fichiers à commit
+
+```
+git add fichier1 fichier2
+```
+
+Faire le commit
+
+```
+git commit -m "Message du commit"
+```
+
 Résultat après l'entrée de la commande:
 ```
 [dorian@laptop cours_git]$ git status
