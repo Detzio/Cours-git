@@ -1,0 +1,61 @@
+﻿Résumé globale:
+1. Configuration initiale :
+
+
+Avant d'utiliser Git, configurez votre nom d'utilisateur et votre adresse e-mail, cela sera inclus dans chaque commit que vous faites.
+git config --global user.name "Votre Nom"
+git config --global user.email "votre@email.com"
+
+
+2. Initialisation d'un nouveau dépôt :
+Si vous démarrez un nouveau projet, vous pouvez initialiser un dépôt Git dans le répertoire de votre projet.
+cd chemin/vers/votre/projet
+git init
+
+
+3. Clonage d'un dépôt existant :
+Si vous voulez travailler sur un projet existant, vous pouvez le cloner.
+git clone url_du_depot
+
+
+4. Ajout et suivi des fichiers : 
+Ajouter des fichiers au suivi de Git avec la commande add.
+git add nom_du_fichier
+Après avoir ajouté les fichiers, créer un commit pour enregistrer les changements.
+git commit -m "Votre message de commit"
+
+
+5. Consultation de l'état : 
+Vérifiez l'état actuel de votre dépôt avec la commande status.
+git status
+
+
+6. Mise à jour du dépôt local :
+Récupérez les dernières modifications depuis le dépôt distant.
+git pull origin nom_de_la_branche
+
+
+7. Envoi des modifications au dépôt distant : 
+Envoyez vos modifications vers le dépôt distant.
+git push origin nom_de_la_branche
+
+
+8. Création de branches : 
+Créer une nouvelle branche pour travailler sur des fonctionnalités isolées.
+git branch nom_de_la_branche
+git checkout nom_de_la_branche
+
+
+Ou, en une seule commande :
+git checkout -b nom_de_la_branche
+
+
+9. Fusion des branches : 
+Fusionner une branche dans une autre après avoir terminé le travail.
+git checkout branche_cible
+git merge branche_source
+
+
+10. Historique des commits : 
+Consulter l'historique des commits avec la commande log.
+git log
