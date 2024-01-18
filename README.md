@@ -13,7 +13,7 @@ git init # Initialisation du dossier git
 
 
 ### Clonage d'un dépôt existant :
-Si vous voulez travailler sur un projet existant, vous pouvez le cloner.
+Pour copier l'état actuel d'un dépôt distant en local
 ```
 git clone url_du_depot
 ```
