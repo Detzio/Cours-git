@@ -2,15 +2,26 @@
 
 ### Consultation de l'état : 
 Vérifiez l'état actuel de votre dépôt avec la commande status.
+
+```
+git status
+```
+
+Résultat après l'entrée de la commande:
 ```
 [dorian@laptop cours_git]$ git status
-On branch section-5-6
+On branch main
 nothing to commit, working tree clean
-[dorian@laptop cours_git]$
+[dorian@laptop main]$
 ```
 
-Pour vérifier les changements apporté dans les anciens commit avec git log
+Pour vérifier les changements apporté dans les anciens commit:
 
+```
+git log
+```
+
+Résultat après l'entrée de la commande:
 ```
 [dorian@laptop cours_git]$ git log
 commit 93dec547902fd512b9dde00239866a5f27bfbd4c (HEAD -> section-5-6, origin/section-5-6)
@@ -44,7 +55,7 @@ Récupérez les dernières modifications depuis le dépôt distant.
 git pull origin nom_de_la_branche
 ```
 
-Ex:
+Résultat après l'entrée de la commande:
 ```
 [dorian@laptop cours_git]$ git pull origin cours_git
 From https://github.com/Detzio/cours_git
