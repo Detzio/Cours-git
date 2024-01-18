@@ -82,14 +82,25 @@ git checkout -b <nom_branche>
 ```
 
 ## Fusion des branches : 
-Fusionner une branche dans une autre après avoir terminé le travail.
+Fusionner une branche dans une autre après avoir terminé le travail. 
+Couramment utilisée pour intégrer les changements apportés dans une branche de développement (branche source).
+Vers une branche principale ou une branche de déploiement (branche cible).
+
+D'abord:
 ```
 git checkout branche_cible
 ```
 
+Puis:
 ```
 git merge branche_source
 ```
+
+Ou, en une seule commande :
+```
+git checkout -b nom_de_la_branche
+```
+Notez que la fusion peut parfois entraîner des conflits. Dans ce cas, résolvez les conflits manuellement et effectuez un nouveau commit pour finaliser la fusion.
 
 ## Historique des commits : 
 Consulter l'historique des commits avec la commande log.
