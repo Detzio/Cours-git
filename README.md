@@ -59,7 +59,6 @@ cd chemin/vers/votre/projet # Se rendre dans le répertoire souhaité
 git init # Initialisation du dossier git
 ```
 
-
 ### Clonage d'un dépôt existant :
 Pour copier l'état actuel d'un dépôt distant en local
 ```
@@ -70,3 +69,24 @@ Après avoir validé les modifications, il faut les envoyer au dépôt distant a
 
 ### Création d'une branche
 Pour créer une branche, afin de travailler sur une fonctionnalité spécifique par exemple, il faut utiliser la commande `git checkout -b <nom_branche>`.
+
+### Fusion des branches : 
+Fusionner une branche dans une autre après avoir terminé le travail.
+```
+git checkout branche_cible
+```
+
+```
+git merge branche_source
+```
+
+### Historique des commits : 
+Consulter l'historique des commits avec la commande log.
+```
+git log
+```
+
+Consulter les modifications par rapport à ce commit
+```
+git show
+```
