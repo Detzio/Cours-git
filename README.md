@@ -6,7 +6,7 @@
 1. [Initialisation d'un nouveau dépôt](https://github.com/Detzio/cours_git?tab=readme-ov-file#initialisation-dun-nouveau-d%C3%A9p%C3%B4t-) :	
 2. [Clonage d'un dépôt existant](https://github.com/Detzio/cours_git?tab=readme-ov-file#clonage-dun-d%C3%A9p%C3%B4t-existant-) :	
 3. [Consultation de l'état](https://github.com/Detzio/cours_git?tab=readme-ov-file#consultation-de-l%C3%A9tat-) :
-4. []() :
+4. [Ajouter et suivi de fichiers]() :
 5. [Mise à jour du dépôt local](https://github.com/Detzio/cours_git?tab=readme-ov-file#mise-%C3%A0-jour-du-d%C3%A9p%C3%B4t-local-) :	
 6. [Envoi des modifications au dépôt distant](https://github.com/Detzio/cours_git?tab=readme-ov-file#envoi-des-modifications-au-d%C3%A9p%C3%B4t-distant) :
 7. [Création de branches](https://github.com/Detzio/cours_git?tab=readme-ov-file#cr%C3%A9ation-dune-branche) :	
@@ -35,7 +35,16 @@ Vérifiez l'état actuel de votre dépôt avec la commande status.
 git status
 ```
 
-## Ajouter des fichiers au suivi de Git avec la commande add
+
+Résultat après l'entrée de la commande:
+```
+[dorian@laptop cours_git]$ git status
+On branch main
+nothing to commit, working tree clean
+[dorian@laptop main]$
+```
+
+## Ajouter et suivi de fichiers
 
 Ajouter des fichiers à commit
 
@@ -47,48 +56,6 @@ Après avoir ajouté les fichiers, créer un commit pour enregistrer les changem
 
 ```
 git commit -m "Votre message de commit"
-```
-
-Résultat après l'entrée de la commande:
-```
-[dorian@laptop cours_git]$ git status
-On branch main
-nothing to commit, working tree clean
-[dorian@laptop main]$
-```
-
-Pour vérifier les changements apporté dans les anciens commit:
-
-```
-git log
-```
-
-Résultat après l'entrée de la commande:
-```
-[dorian@laptop cours_git]$ git log
-commit 93dec547902fd512b9dde00239866a5f27bfbd4c (HEAD -> section-5-6, origin/section-5-6)
-Author: Dorian Cruveiller <doriancruveiller@gmail.com>
-Date:   Thu Jan 18 17:06:48 2024 +0100
-
-    Add 2 sections
-
-commit ef8078d9421a21ceaa6175179e58fd960de8d9f1 (origin/cours_git, origin/HEAD, cours_git)
-Author: Dorian Cruveiller <doriancruveiller@gmail.com>
-Date:   Thu Jan 18 16:56:47 2024 +0100
-
-    Add README.md
-
-commit 1c03fa7f02c32f3812f9648c833b093ee49953fa
-Author: Dusséaux Thomas <t.dusseaux@gmail.com>
-Date:   Thu Jan 18 16:52:54 2024 +0100
-
-    maj
-
-commit 9a36f5143690db2e473d3f78812175a00ed37ea4
-Author: Dusséaux Thomas <t.dusseaux@gmail.com>
-Date:   Thu Jan 18 14:42:44 2024 +0100
-
-[dorian@laptop cours_git]$
 ```
 
 ## Mise à jour du dépôt local :
@@ -144,6 +111,34 @@ Notez que la fusion peut parfois entraîner des conflits. Dans ce cas, résolvez
 Consulter l'historique des commits avec la commande log.
 ```
 git log
+```
+
+Résultat après l'entrée de la commande:
+```
+[dorian@laptop cours_git]$ git log
+commit 93dec547902fd512b9dde00239866a5f27bfbd4c (HEAD -> section-5-6, origin/section-5-6)
+Author: Dorian Cruveiller <doriancruveiller@gmail.com>
+Date:   Thu Jan 18 17:06:48 2024 +0100
+
+    Add 2 sections
+
+commit ef8078d9421a21ceaa6175179e58fd960de8d9f1 (origin/cours_git, origin/HEAD, cours_git)
+Author: Dorian Cruveiller <doriancruveiller@gmail.com>
+Date:   Thu Jan 18 16:56:47 2024 +0100
+
+    Add README.md
+
+commit 1c03fa7f02c32f3812f9648c833b093ee49953fa
+Author: Dusséaux Thomas <t.dusseaux@gmail.com>
+Date:   Thu Jan 18 16:52:54 2024 +0100
+
+    maj
+
+commit 9a36f5143690db2e473d3f78812175a00ed37ea4
+Author: Dusséaux Thomas <t.dusseaux@gmail.com>
+Date:   Thu Jan 18 14:42:44 2024 +0100
+
+[dorian@laptop cours_git]$
 ```
 
 Consulter les modifications par rapport à ce commit
