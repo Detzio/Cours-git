@@ -25,7 +25,7 @@ git init # Initialisation du dossier git
 ## Clonage d'un dépôt existant :
 Pour copier l'état actuel d'un dépôt distant en local
 ```
-git clone url_du_depot
+git clone <url_du_depot>
 ```
 
 ## Consultation de l'état : 
@@ -49,7 +49,7 @@ nothing to commit, working tree clean
 Ajouter des fichiers à commit
 
 ```
-git add nom_du_fichier
+git add <nom_du_fichier>
 ```
 
 Après avoir ajouté les fichiers, créer un commit pour enregistrer les changements.
@@ -61,7 +61,7 @@ git commit -m "Votre message de commit"
 ## Mise à jour du dépôt local :
 Récupérez les dernières modifications depuis le dépôt distant.
 ```
-git pull origin nom_de_la_branche
+git pull origin <nom_branche>
 ```
 
 Résultat après l'entrée de la commande:
@@ -97,12 +97,12 @@ Vers une branche principale ou une branche de déploiement (branche cible).
 
 D'abord:
 ```
-git checkout branche_cible
+git checkout <branche_cible>
 ```
 
 Puis:
 ```
-git merge branche_source
+git merge <branche_source>
 ```
 
 Notez que la fusion peut parfois entraîner des conflits. Dans ce cas, résolvez les conflits manuellement et effectuez un nouveau commit pour finaliser la fusion.
