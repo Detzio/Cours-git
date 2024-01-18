@@ -35,18 +35,18 @@ Vérifiez l'état actuel de votre dépôt avec la commande status.
 git status
 ```
 
-## Faire un commit
+## Ajouter des fichiers au suivi de Git avec la commande add
 
 Ajouter des fichiers à commit
 
 ```
-git add fichier1 fichier2
+git add nom_du_fichier
 ```
 
-Faire le commit
+Après avoir ajouté les fichiers, créer un commit pour enregistrer les changements.
 
 ```
-git commit -m "Message du commit"
+git commit -m "Votre message de commit"
 ```
 
 Résultat après l'entrée de la commande:
