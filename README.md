@@ -1,5 +1,22 @@
 # TD GIT
 
-## Initilisation d'un dépot
+### Fusion des branches : 
+Fusionner une branche dans une autre après avoir terminé le travail.
+```
+git checkout branche_cible
+```
 
-## Clonage d'un dépôt existant 
+```
+git merge branche_source
+```
+
+### Historique des commits : 
+Consulter l'historique des commits avec la commande log.
+```
+git log
+```
+
+Consulter les modifications par rapport à ce commit
+```
+git show
+```
