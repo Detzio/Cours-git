@@ -1,6 +1,34 @@
-# TD GIT
+# Mode d'emploi git / github
 
-### Consultation de l'état : 
+## Sommaire
+
+
+1. [Initialisation d'un nouveau dépôt](https://github.com/Detzio/cours_git/edit/cours_git/README.md#initialisation-dun-nouveau-d%C3%A9p%C3%B4t-) :	
+2. [Clonage d'un dépôt existant]() :	
+3. [Ajout et suivi des fichiers]() :
+4. [Consultation de l'état]() :	
+5. [Mise à jour du dépôt local]() :	
+6. [Envoi des modifications au dépôt distant]() :
+7. [Création de branches]() :	
+8. [Fusion des branches]() :	
+9. [Historique des commits]() :	
+
+
+
+## Initialisation d'un nouveau dépôt :
+Pour démarrer un nouveau projet, il faut initialiser un dépôt Git dans le répertoire de votre projet.
+```
+cd chemin/vers/votre/projet # Se rendre dans le répertoire souhaité
+git init # Initialisation du dossier git
+```
+
+## Clonage d'un dépôt existant :
+Pour copier l'état actuel d'un dépôt distant en local
+```
+git clone url_du_depot
+```
+
+## Consultation de l'état : 
 Vérifiez l'état actuel de votre dépôt avec la commande status.
 
 ```
@@ -49,7 +77,7 @@ Date:   Thu Jan 18 14:42:44 2024 +0100
 [dorian@laptop cours_git]$
 ```
 
-### Mise à jour du dépôt local :
+## Mise à jour du dépôt local :
 Récupérez les dernières modifications depuis le dépôt distant.
 ```
 git pull origin nom_de_la_branche
@@ -63,18 +91,7 @@ From https://github.com/Detzio/cours_git
 Already up to date.
 [dorian@laptop cours_git]$
 ```
-## Initialisation d'un nouveau dépôt :
-Pour démarrer un nouveau projet, il faut initialiser un dépôt Git dans le répertoire de votre projet.
-```
-cd chemin/vers/votre/projet # Se rendre dans le répertoire souhaité
-git init # Initialisation du dossier git
-```
 
-## Clonage d'un dépôt existant :
-Pour copier l'état actuel d'un dépôt distant en local
-```
-git clone url_du_depot
-```
 ## Envoi des modifications au dépôt distant
 Après avoir validé les modifications, il faut les envoyer au dépôt distant avec la commande 
 ```
