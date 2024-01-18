@@ -52,25 +52,25 @@ From https://github.com/Detzio/cours_git
 Already up to date.
 [dorian@laptop cours_git]$
 ```
-### Initialisation d'un nouveau dépôt :
+## Initialisation d'un nouveau dépôt :
 Pour démarrer un nouveau projet, il faut initialiser un dépôt Git dans le répertoire de votre projet.
 ```
 cd chemin/vers/votre/projet # Se rendre dans le répertoire souhaité
 git init # Initialisation du dossier git
 ```
 
-### Clonage d'un dépôt existant :
+## Clonage d'un dépôt existant :
 Pour copier l'état actuel d'un dépôt distant en local
 ```
 git clone url_du_depot
 ```
-### Envoi des modifications au dépôt distant
+## Envoi des modifications au dépôt distant
 Après avoir validé les modifications, il faut les envoyer au dépôt distant avec la commande `git push` pour les envoyer dans la branche courante ou `git push origin <nom_branche>` pour envoyer dans une branche spécifique.
 
-### Création d'une branche
+## Création d'une branche
 Pour créer une branche, afin de travailler sur une fonctionnalité spécifique par exemple, il faut utiliser la commande `git checkout -b <nom_branche>`.
 
-### Fusion des branches : 
+## Fusion des branches : 
 Fusionner une branche dans une autre après avoir terminé le travail.
 ```
 git checkout branche_cible
@@ -80,7 +80,7 @@ git checkout branche_cible
 git merge branche_source
 ```
 
-### Historique des commits : 
+## Historique des commits : 
 Consulter l'historique des commits avec la commande log.
 ```
 git log
@@ -90,3 +90,5 @@ Consulter les modifications par rapport à ce commit
 ```
 git show
 ```
+
+La liste complète des commandes ainsi que la documentation de Git est disponible sur : https://git-scm.com/docs
