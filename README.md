@@ -96,10 +96,6 @@ Puis:
 git merge branche_source
 ```
 
-Ou, en une seule commande :
-```
-git checkout -b nom_de_la_branche
-```
 Notez que la fusion peut parfois entraîner des conflits. Dans ce cas, résolvez les conflits manuellement et effectuez un nouveau commit pour finaliser la fusion.
 
 ## Historique des commits : 
