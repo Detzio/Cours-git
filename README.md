@@ -51,7 +51,7 @@ From https://github.com/Detzio/cours_git
  * branch            cours_git  -> FETCH_HEAD
 Already up to date.
 [dorian@laptop cours_git]$
-
+```
 ### Initialisation d'un nouveau dépôt :
 Pour démarrer un nouveau projet, il faut initialiser un dépôt Git dans le répertoire de votre projet.
 ```
